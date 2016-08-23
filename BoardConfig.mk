@@ -55,7 +55,7 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/onyx
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := onyx,OnePlus,E1003,ONE
+TARGET_OTA_ASSERT_DEVICE := onyx,OnePlus,E1003,ONE,X
 
 # Audio
 AUDIO_FEATURE_ENABLED_HWDEP_CAL := true
