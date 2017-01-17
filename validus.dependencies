@@ -5,9 +5,9 @@
     "branch": "n7.1"
   },
   {
-    "repository": "GZR-Kernels/kernel_oneplus_onyx",
+    "repository": "CheckYourScreen/Arsenic.Kernel",
     "target_path": "kernel/oneplus/onyx",
-    "branch": "n"
+    "branch": "stable"
   },
   {
     "repository": "BigTopKrazies/vendor_oneplus",
