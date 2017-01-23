@@ -10,7 +10,7 @@
     "branch": "stable"
   },
   {
-    "repository": "BigTopKrazies/vendor_oneplus",
+    "repository": "BigTopKrazies/vendor_oneplus-onyx",
     "target_path": "vendor/oneplus",
     "branch": "n7.1"
   },
