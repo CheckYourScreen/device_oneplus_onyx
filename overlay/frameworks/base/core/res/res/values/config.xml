@@ -337,4 +337,7 @@
     <!-- Whether safe headphone volume is enabled or not (country specific). -->
     <bool name="config_safe_media_volume_enabled">false</bool>
 
+    <!-- Night display  -->
+    <bool name="config_nightDisplayAvailable">true</bool>
+
 </resources>
