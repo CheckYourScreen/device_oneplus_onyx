@@ -33,4 +33,7 @@
     <!-- Regulatory Info -->
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">false</bool>
+
+    <!-- When true enable gesture setting. -->
+    <bool name="config_gesture_settings_enabled">false</bool>
 </resources>
