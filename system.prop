@@ -63,8 +63,8 @@ media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
 # DPM
-persist.cne.feature=0
-persist.dpm.feature=3
+# persist.cne.feature=0
+# persist.dpm.feature=3
 
 # GPS
 persist.gps.qc_nlp_in_use=0
