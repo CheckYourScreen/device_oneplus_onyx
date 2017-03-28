@@ -29,6 +29,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Root Method
+DEFAULT_ROOT_METHOD := rootless
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
