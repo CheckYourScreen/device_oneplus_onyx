@@ -43,7 +43,7 @@ TARGET_CPU_VARIANT := krait
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3b7 ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.bootdevice=msm_sdcc.1 ehci-hcd.park=3 androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
@@ -116,9 +116,6 @@ BOARD_VOLD_CRYPTFS_MIGRATE := true
 BOARD_HAVE_QCOM_FM := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
-# Fonts
-EXTENDED_FONT_FOOTPRINT := true
-
 # GPS
 BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 USE_DEVICE_SPECIFIC_GPS := true
@@ -131,10 +128,8 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
-TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
-TARGET_USE_COMPAT_GRALLOC_PERFORM := true
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
