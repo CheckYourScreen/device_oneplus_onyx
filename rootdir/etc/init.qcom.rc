@@ -19,6 +19,7 @@ import init.qcom.power.rc
 
 on early-init
     chown system system /sys/kernel/debug/kgsl/proc
+    symlink /proc/wakeup /d
 
 on init
     export LD_SHIM_LIBS "/system/lib/libgui.so|libshims_sensors.so:/system/lib/hw/camera.msm8974.so|libshims_camera.so"
