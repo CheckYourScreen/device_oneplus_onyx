@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/onyx/device.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
-$(call inherit-product, vendor/validus/config/caf_fw.mk)
+$(call inherit-product, vendor/vertex/config/common_full_phone.mk)
+$(call inherit-product, vendor/vertex/config/caf_fw.mk)
 
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
 
-PRODUCT_NAME := validus_onyx
+PRODUCT_NAME := vertex_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
 
@@ -36,4 +36,4 @@ TARGET_VENDOR := oneplus
 TARGET_VENDOR_PRODUCT_NAME := onyx
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	DEVICE_MAINTAINERS="Nimit Mehta (CheckYourScreen)"
+	DEVICE_MAINTAINERS="Fabio-San"
