@@ -30,7 +30,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Root Method
-DEFAULT_ROOT_METHOD := rootless
+WITH_ROOT := false
 
 # Ramdisk
 PRODUCT_PACKAGES += \
