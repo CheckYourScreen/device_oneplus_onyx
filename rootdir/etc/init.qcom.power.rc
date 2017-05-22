@@ -109,5 +109,5 @@ on property:dev.bootcomplete=1
     write /sys/block/mmcblk0/bdi/read_ahead_kb 512
     write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "10000 1800000:20000"
     write /sys/devices/system/cpu/cpufreq/interactive/target_loads "85 1500000:90"
-    setprop sys.io.scheduler "bfq"
+    setprop sys.io.scheduler "zen"
     start mpdecision
