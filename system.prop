@@ -65,10 +65,6 @@ persist.camera.cpp.duplication=false
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
-# DPM
-persist.cne.feature=0
-persist.dpm.feature=3
-
 # Strict Mode
 persist.sys.strictmode.disable=true
 
