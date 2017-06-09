@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo vertex_onyx-eng
-add_lunch_combo vertex_onyx-user
-add_lunch_combo vertex_onyx-userdebug
+add_lunch_combo deso_onyx-eng
+add_lunch_combo deso_onyx-user
+add_lunch_combo deso_onyx-userdebug
