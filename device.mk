@@ -33,6 +33,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Root Method
 WITH_ROOT := false
 
+# for offline charging mode
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
