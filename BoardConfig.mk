@@ -142,6 +142,8 @@ TARGET_UNIFIED_DEVICE := true
 
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+# Control flag between KM versions
+TARGET_HW_KEYMASTER_V03 := true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
