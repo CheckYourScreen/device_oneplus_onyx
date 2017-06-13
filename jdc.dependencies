@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "AOSP-JF-MM/platform_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "aosp-7.1.2-onyx"
+  },
+  {
+    "repository": "CheckYourScreen/Arsenic.Kernel",
+    "target_path": "kernel/oneplus/onyx",
+    "branch": "stable"
+  },
+  {
+    "repository": "BigTopKrazies/vendor_oneplus-onyx",
+    "target_path": "vendor/oneplus",
+    "branch": "n7.1"
+  },
+  {
+    "repository": "BigTopKrazies/proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "branch": "n7.1"
+  },
+  {
+    "repository": "SlimRoms/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch": "ng7.1"
+  }
+]
