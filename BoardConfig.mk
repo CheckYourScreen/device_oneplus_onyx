@@ -62,6 +62,9 @@ TARGET_KRAIT_BIONIC_PLDSIZE := 64
 # Bootanimantion Optimizations
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
+# Fixes Wifi-Mobile Data toggle issue
+MALLOC_SVELTE := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
