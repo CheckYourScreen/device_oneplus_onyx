@@ -34,6 +34,9 @@ ro.telephony.default_network=9,9
 ro.use_data_netmgrd=true
 telephony.lteOnGsmDevice=1
 
+# Fast Dormancy
+persist.env.fastdorm.enabled=false
+
 # Audio
 mm.enable.smoothstreaming=true
 mm.enable.qcom_parser=37491
