@@ -68,6 +68,9 @@ media.stagefright.less-secure=true
 persist.cne.feature=0
 persist.dpm.feature=3
 
+# Strict Mode
+persist.sys.strictmode.disable=true
+
 # GPS
 persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1
