@@ -194,7 +194,11 @@
     <bool name="config_hotswapCapable">true</bool>
 
     <!-- Flag specifying whether VoLTE & VT is availasble on device -->
-    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_carrier_volte_tty_supported">false</bool>
+
+    <!-- Device doesnt support dual band WiFi-Required for roms which doesnt have it disabled by default -->
+    <bool name="config_wifi_dual_band_support">false</bool>
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
