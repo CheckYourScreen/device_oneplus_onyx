@@ -65,6 +65,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 # Fixes Wifi-Mobile Data toggle issue
 MALLOC_SVELTE := true
+TARGET_NEEDS_GCC_LIBC := true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
