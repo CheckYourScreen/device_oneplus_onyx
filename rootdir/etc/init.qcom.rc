@@ -68,14 +68,15 @@ on boot
     # Create QMUX deamon socket area
     mkdir /dev/socket/qmux_radio 0770 radio radio
     chmod 2770 /dev/socket/qmux_radio
-    mkdir /dev/socket/netmgr 0770 radio radio
-    chmod 2770 /dev/socket/netmgr
     mkdir /dev/socket/qmux_audio 0770 media audio
     chmod 2770 /dev/socket/qmux_audio
     mkdir /dev/socket/qmux_bluetooth 0770 bluetooth bluetooth
     chmod 2770 /dev/socket/qmux_bluetooth
     mkdir /dev/socket/qmux_gps 0770 gps gps
     chmod 2770 /dev/socket/qmux_gps
+
+    # NETMGR daemon socket
+     mkdir /dev/socket/netmgr 0750 radio radio
 
     # Charger
     chown root system /sys/module/qpnp_charger/parameters/charger_monitor
@@ -407,7 +408,7 @@ service qmuxd /system/bin/qmuxd
 service netmgrd /system/bin/netmgrd
     class main
     user root
-    group radio
+    group root radio wifi qcom_diag
 
 # QCOM sensor
 service sensors /system/bin/sensors.qcom
