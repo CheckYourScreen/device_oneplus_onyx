@@ -202,6 +202,9 @@ on post-fs
     chown system system /sys/devices/virtual/graphics/fb0/cabc
     chmod 0660 /sys/devices/virtual/graphics/fb0/cabc
 
+    chown system system /sys/devices/virtual/graphics/fb0/hbm
+    chmod 0660 /sys/devices/virtual/graphics/fb0/hbm
+
     chown system system /sys/devices/virtual/graphics/fb0/gamma
     chmod 0660 /sys/devices/virtual/graphics/fb0/gamma
 
