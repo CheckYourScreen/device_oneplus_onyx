@@ -111,50 +111,13 @@ etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw
 
-# CNE / DPM
-bin/cnd
-bin/dpmd
-etc/cne/andsfCne.xml
-etc/cne/SwimConfig.xml
-etc/dpm/dpm.conf
-etc/dpm/nsrm/NsrmConfiguration.xml
-etc/permissions/cneapiclient.xml
-etc/permissions/com.qti.dpmframework.xml
-etc/permissions/com.quicinc.cne.xml
-etc/permissions/ConnectivityExt.xml
-etc/permissions/dpmapi.xml
--framework/cneapiclient.jar
--framework/com.qti.dpmframework.jar
--framework/com.quicinc.cne.jar
--framework/ConnectivityExt.jar
--framework/dpmapi.jar
--priv-app/CNEService/CNEService.apk
-vendor/lib/libcne.so
-vendor/lib/libcneapiclient.so
-vendor/lib/libcneconn.so
-vendor/lib/libcneqmiutils.so
-vendor/lib/libdpmframework.so
-vendor/lib/libdpmnsrm.so
-vendor/lib/libNimsWrap.so
-vendor/lib/libvendorconn.so
-
 # DRM
--framework/com.google.widevine.software.drm.jar
 bin/qseecomd
-etc/permissions/com.google.widevine.software.drm.xml
 vendor/lib/libQSEEComAPI.so
-vendor/lib/libWVStreamControlAPI_L3.so
-vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so
-vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
-vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so
 
 # GPS (from bacon)
 bin/loc_launcher|b920649a5a083473b51a6234783befc7c61978da
@@ -165,6 +128,27 @@ vendor/lib/libflp.so|20994b3ac3ecd2094698ac98463aed97e3ce54ef
 vendor/lib/libgeofence.so|953c2720c98825cdfb2757839f5f86400c11a2d5
 vendor/lib/libizat_core.so|8d1b8f5c26cc9bcdacb402e253048211a6c07ba1
 vendor/lib/liblbs_core.so|aa2eaeccccda819ed213a56091b6beac23da2805
+
+# Graphics
+vendor/lib/egl/eglsubAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libRSDriver_adreno.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libbccQTI.so
+vendor/lib/libc2d30-a3xx.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
+vendor/lib/libsc-a3xx.so
+vendor/lib/libscale.so
+vendor/lib/libuiblur.so|12dd942092c05d978a2a2db3ea37e0b410427b52
 
 # Graphics firmware
 etc/firmware/a330_pfp.fw
@@ -344,6 +328,7 @@ vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libxml.so
+vendor/lib/libcneapiclient.so
 
 # Sensors
 bin/sensors.qcom
@@ -372,3 +357,9 @@ bin/time_daemon
 
 # Wcnss (from ham)
 lib/libwcnss_qmi.so|d17b527007d5a9d468403a2bcf71f35d997d74bf
+
+# Widevine (from kipper)
+vendor/lib/libwvdrm_L3.so|7e77482481197997294a834bfbc817a01b6075cd
+vendor/lib/libWVStreamControlAPI_L3.so|61673304827483d44b735a3dd08f0783d10ce92d
+vendor/lib/mediadrm/libwvdrmengine.so|416e44ba482f1f97258ff8793b0a810219ac632d
+
