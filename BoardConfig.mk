@@ -67,6 +67,9 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 MALLOC_SVELTE := true
 TARGET_NEEDS_GCC_LIBC := true
 
+# Webview defs
+PREBUILT_WEBVIEW_VERSION := chromium
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
