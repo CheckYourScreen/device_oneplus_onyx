@@ -117,4 +117,5 @@ on property:dev.bootcomplete=1
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1958400
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1958400
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1958400
+    write /sys/devices/system/cpu/cpu0/cpufreq/UV_mV_table '760 765 770 780 800 810 820 840 850 880 895 925 970 1030'
     start mpdecision
