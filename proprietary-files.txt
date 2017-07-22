@@ -111,6 +111,17 @@ etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw
 
+# OnePlus Camera
+priv-app/OnePlusCamera/OnePlusCamera.apk
+priv-app/OnePlusCamera/lib/arm/libopbaselib.so
+priv-app/OnePlusCameraService/OnePlusCameraService.apk
+framework/org.codeaurora.camera.jar
+lib/libfilter-sdk.so
+lib/libmm-qcamera.so
+lib/libopbaselib.so
+lib/libopcamera.so
+lib/libopcameralib.so
+
 # DRM
 bin/qseecomd
 vendor/lib/libQSEEComAPI.so
