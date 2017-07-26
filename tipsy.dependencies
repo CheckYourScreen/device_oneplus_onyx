@@ -15,11 +15,6 @@
     "branch": "n7.1"
   },
   {
-    "repository": "BigTopKrazies/proprietary_vendor_qcom_binaries",
-    "target_path": "vendor/qcom/binaries",
-    "branch": "n7.1"
-  },
-  {
     "repository":  "SlimRoms/vendor_qcom_opensource_dataservices",
     "target_path": "vendor/qcom/opensource/dataservices",
     "branch":      "ng7.1"
