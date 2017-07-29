@@ -13,3 +13,10 @@ binder_call(mediaserver, audiod)
 
 # Hackzz
 allow mediaserver audio_device:chr_file { ioctl open read write };
+
+# More Hackzz
+allow mediaserver perf_data_file:sock_file write;
+allow mediaserver camera_socket:dir { search open };
+allow mediaserver camera_data_file:dir rw_dir_perms;
+allow mediaserver camera_data_file:file create_file_perms;
+allow mediaserver camera_prop:property_service set;
