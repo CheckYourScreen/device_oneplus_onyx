@@ -82,10 +82,12 @@ on boot
     chown root system /sys/class/power_supply/battery/input_current_max
     chown root system /sys/class/power_supply/battery/input_current_trim
     chown root system /sys/class/power_supply/battery/voltage_min
+    chown root system /sys/class/power_supply/battery/input_current_settled
     chmod 0644 /sys/module/qpnp_charger/parameters/charger_monitor
     chmod 0644 /sys/class/power_supply/battery/input_current_max
     chmod 0644 /sys/class/power_supply/battery/input_current_trim
     chmod 0644 /sys/class/power_supply/battery/voltage_min
+    chmod 0664 /sys/class/power_supply/battery/input_current_settled
 
     # Camera Recording
     mkdir /dev/video
@@ -483,6 +485,11 @@ service qbcharger /charger -m 1
     disabled
     oneshot
     seclabel u:r:healthd:s0
+
+service charger_monitor /system/bin/charger_monitor
+    class late_start
+    user root
+    group root
 
 on property:sys.qbcharger.enable=true
     start qbcharger
