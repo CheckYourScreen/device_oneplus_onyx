@@ -332,6 +332,7 @@ vendor/lib/libxml.so
 vendor/lib/libcneapiclient.so
 
 # Sensors
+bin/charger_monitor
 bin/sensors.qcom
 etc/firmware/tp/15055/15055_FW_S3508_Tpk.img
 etc/firmware/tp/15055/15055_Limit_Tpk.img
