@@ -412,7 +412,7 @@ service qmuxd /system/bin/qmuxd
 service netmgrd /system/bin/netmgrd
     class main
     user root
-    group root radio wifi qcom_diag inet
+    group root radio wifi qcom_diag inet wakelock
 
 # QCOM sensor
 service sensors /system/bin/sensors.qcom
