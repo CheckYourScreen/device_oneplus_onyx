@@ -5,7 +5,7 @@
     "branch": "aosp-7.1.2-onyx"
   },
   {
-    "repository": "CheckYourScreen/Arsenic.Kernel",
+    "repository": "CheckYourScreen/Arsenic.Kernel-rebased",
     "target_path": "kernel/oneplus/onyx",
     "branch": "stable"
   },
