@@ -108,8 +108,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libshims_camera \
-    Camera2
+    libshims_camera
 
 # Data
 PRODUCT_PACKAGES += \
