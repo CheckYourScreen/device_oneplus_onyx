@@ -108,7 +108,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libshims_camera
+    libshims_camera \
+    libstlport
 
 # Data
 PRODUCT_PACKAGES += \
