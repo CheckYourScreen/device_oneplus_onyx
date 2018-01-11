@@ -46,8 +46,8 @@
             64 - Volume rocker
             83 - Profile Toggle
          For example, a device with Home, Back and Menu keys would set this
-         config to 7.
-    <integer name="config_deviceHardwareWakeKeys">64</integer>-->
+         config to 7.-->
+    <integer name="config_deviceHardwareWakeKeys">64</integer>
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -60,7 +60,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
 
-   <!-- <integer name="config_longPressOnAppSwitchBehavior">1</integer>-->
+   <integer name="config_longPressOnAppSwitchBehavior">1</integer>
 
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
@@ -165,6 +165,9 @@
 
     <!-- Device specific options -->
 
+    <!-- Configuration to support SIM contact batch operation -->
+    <bool name="config_sim_phonebook_batch_operation">false</bool>
+
     <!-- Default LED on time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOn">500</integer>
 
@@ -175,7 +178,7 @@
     <bool name="config_intrusiveNotificationLed">true</bool>
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-   <!-- <bool name="config_intrusiveBatteryLed">true</bool>-->
+   <bool name="config_intrusiveBatteryLed">true</bool>
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -204,6 +207,9 @@
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
+
+    <!-- Enable blur support -->
+    <bool name="config_uiBlurEnabled">true</bool>
 
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N  1 zones as follows:
@@ -351,7 +357,7 @@
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response
          proximity sensor (ideally < 300ms) -->
-    <bool name="config_proximityCheckOnWake">true</bool>
+   <!-- <bool name="config_proximityCheckOnWake">true</bool>-->
 
     <!-- Control the behavior when the user panic presses the back button.
             0 - Nothing
