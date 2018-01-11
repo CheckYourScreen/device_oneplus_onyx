@@ -1,8 +1,8 @@
 [
   {
-    "repository": "AOSP-JF-MM/platform_device_oppo_common",
+    "repository": "CheckYourScreen/platform_device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "aosp-7.1.2-onyx"
+    "branch": "lineage"
   },
   {
     "repository": "CheckYourScreen/Arsenic.Kernel-rebased",
@@ -17,6 +17,11 @@
   {
     "repository": "SlimRoms/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
+    "branch": "ng7.1"
+  },
+  {
+    "repository": "SlimRoms/android_external_stlport",
+    "target_path": "external/stlport",
     "branch": "ng7.1"
   }
 ]
